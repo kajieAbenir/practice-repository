@@ -4,9 +4,5 @@ public class bookLogin {
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
-		
-		
 	}
-		
-	
 }
