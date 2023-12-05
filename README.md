@@ -1,6 +1,4 @@
 # practice-repository
-practice para wednesday hays.
+practice para wednesday.
 
-sir kung makakita ka ani, among borger niya.
-
-salamat hehe
+the burger is missing group yourselves into four
