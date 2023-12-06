@@ -12,7 +12,7 @@ class Components{
       }
 
     static void addFrame(){
-      mainFrame.setSize(400, 500);
+      mainFrame.setSize(800, 1200);
       mainFrame.setLocationRelativeTo(null);
       mainFrame.setDefaultCloseOperation(mainFrame_EXIT_ON_CLOSE);
       mainFrame.setLayout(null);
