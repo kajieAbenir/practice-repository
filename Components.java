@@ -7,8 +7,8 @@ class Components{
 
     static JFrame mainFrame = new JFrame();
     
-      RegisterView(){
-    
+     Components(){
+        addFrame();
       }
 
     static void addFrame(){
