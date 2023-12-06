@@ -23,7 +23,7 @@ public class Components{
         panel.setBounds(xAxis, yAxis, width, height);
     }
 
-    static void addLabel(JPanel panel, JLabel label, int xAxis, int yAxis, int width, int height, int fontSize){
+    static void addLabel(JPanel panel, JLabel label, int xAxis, int yAxis, int width, int height){
         label.setBounds(xAxis, yAxis, width, height);
     }
 
@@ -31,7 +31,7 @@ public class Components{
         textField.setBounds(xAxis, yAxis, width, height);
     }
 
-    static void addButton(JPanel panel, JButton button, int xAxis, int yAxis, int width, int height, int fontSize){
+    static void addButton(JPanel panel, JButton button, int xAxis, int yAxis, int width, int height){
         button.setBounds(xAxis, yAxis, width, height);
     }
     
