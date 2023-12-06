@@ -1,3 +1,8 @@
+package oop.project;
+
+import javax.swing.*;
+import java.awt.*;
+
 class Components{
 
     static JFrame mainFrame = new JFrame();
