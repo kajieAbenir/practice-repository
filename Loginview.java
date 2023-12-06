@@ -18,7 +18,7 @@ class Loginview{
 
 }
 
-  	JLabel wellabel = new JLabel("WELCOME);
+  	JLabel welLabel = new JLabel("WELCOME);
 	wellabel.setBound(320, 50, 200, 50);
 	loginPanel.add(wellabel);
 
