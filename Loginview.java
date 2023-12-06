@@ -3,7 +3,7 @@ import java.awt.*;
 
 class Loginview{
  	JFrame frame = new JFrame();
-  	frame.setSize(500, 500);
+  	frame.setSize(500,500);
  	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  	frame.setLocationRelativeTo(null)
   	frame.setLayout(null);
@@ -18,7 +18,7 @@ class Loginview{
 
 }
 
-  	JLabel welLabel = new JLabel("WELCOME);
+  	JLabel wellabel = new JLabel("WELCOME");
 	wellabel.setBound(320, 50, 200, 50);
 	loginPanel.add(wellabel);
 
