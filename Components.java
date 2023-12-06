@@ -3,7 +3,7 @@ package oop.project;
 import javax.swing.*;
 import java.awt.*;
 
-class Components{
+public class Components{
 
     static JFrame mainFrame = new JFrame();
     
@@ -23,7 +23,7 @@ class Components{
         panel.setBounds(xAxis, yAxis, width, height);
     }
 
-    static void addLabel(JPanel panel, JLabel label, int xAxis, int yAxis, int width, int height){
+    static void addLabel(JPanel panel, JLabel label, int xAxis, int yAxis, int width, int height, int fontSize){
         label.setBounds(xAxis, yAxis, width, height);
     }
 
@@ -31,7 +31,7 @@ class Components{
         textField.setBounds(xAxis, yAxis, width, height);
     }
 
-    static void addButton(JPanel panel, JButton button, int xAxis, int yAxis, int width, int height){
+    static void addButton(JPanel panel, JButton button, int xAxis, int yAxis, int width, int height, int fontSize){
         button.setBounds(xAxis, yAxis, width, height);
     }
     
