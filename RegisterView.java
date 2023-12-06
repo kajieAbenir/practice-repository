@@ -33,6 +33,20 @@ public class RegisterView implements ActionListener{
     JTextField emailAddressTextField = new JLabel();
     addComponents.addTextField(registerPanel, emailAddressTextField, 40, 300, 300, 40);
     registerPanel.add(emailAddressTextField);
+
+    JLabel passwordLabel = new JLabel("PASSWORD");
+    addComponents.addLabel(registerPanel, passwordLabel, 40, 370, 200, 30);
+    registerPanel.add(passwordLabel);
+
+    JTextField passwordTextField = new JLabel();
+    addComponents.addTextField(registerPanel, passwordTextField, 40, 420, 300, 40);
+    registerPanel.add(passwordTextField);
+
+    JButton registerButton - new JButton();
+    addComponents.addButton(registerPanel, registerButton, 40, 490, 300, 40);
+    registerButton.addActionListener(this);
+    registerPanel.add(registerButton);
+  
     
   }
 
