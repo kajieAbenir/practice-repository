@@ -31,7 +31,13 @@ class Components{
         textField.setBounds(xAxis, yAxis, width, height);
     }
 
-  static void addButton(JPanel panel, JButton button, int xAxis, int yAxis, int width, int height){
+    static void addButton(JPanel panel, JButton button, int xAxis, int yAxis, int width, int height){
         button.setBounds(xAxis, yAxis, width, height);
-  }
+    }
+    
+    static void clearFrame(){
+        mainFrame.getContentPane().removeAll();
+        mainFrame.validate();
+        mainFrame.repaint();
+    }
 }
